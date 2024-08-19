@@ -1,0 +1,11 @@
+name: Hello World
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: my-runner
+    steps:
+    - name: Echo Hello World
+      run: echo Hello, World!
