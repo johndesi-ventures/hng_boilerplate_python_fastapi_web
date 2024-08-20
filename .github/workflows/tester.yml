@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: my-runner
+    runs-on: arc-runner-set
     steps:
     - name: Echo Hello World
       run: echo Hello, World!
